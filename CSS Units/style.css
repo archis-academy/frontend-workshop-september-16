@@ -1,0 +1,17 @@
+/* % -> parent etiketin içerisinde % kaç yer kapladığı  */
+/* px -> pixel unit bilgisayardaki en küçük birim asla değişmez */
+/* em -> kendi etiketinin font-size büyüklüğüne göre belirlenir. font-size: 16px -> 1em = 16px */
+/* rem -> root elementin(html) font-size büyüklüğüne göre belirlenir */
+/* vw (viewport width) -> ekranın gözüken kısmının genişliğinin yüzdesi 1vw -> ekranın gözüken kısmının genişliğinin yüzde biri */
+/* vh (viewport height) -> ekranın gözüken kısmının yüksekliğinin yüzdesi 1vh -> ekranın gözüken kısmının yüksekliğinin yüzde biri */
+
+div{
+    width: 500px;
+    border: 2px solid green;
+}
+
+h2{
+    border: 2px solid magenta;
+    width: 100vw;
+}
+

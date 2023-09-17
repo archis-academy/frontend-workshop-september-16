@@ -1,0 +1,28 @@
+.card{
+    background-color: darkred;
+    color: white;
+    width: 400px;
+    padding: 1em;
+    border-radius: 6px;
+
+    margin: 80px auto;
+
+    position: relative;
+}
+
+.card-img{
+    width: 100%;
+}
+
+.card-discount{
+    display: inline-block;
+    background-color: blue;
+    padding: 6px 10px;
+    border-radius: 20px;
+
+    position: absolute;
+    right: -40px;
+    top: -10px;
+
+    transform: rotate(25deg);
+}
